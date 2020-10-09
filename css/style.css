@@ -348,6 +348,7 @@ footer .copyright{
     border: none;
     outline: none;
     cursor: pointer;
+    display: none;
 }
 .hamberger img{
     width: 30px;
@@ -429,4 +430,71 @@ footer .copyright{
         padding: 3rem 0rem;
     }
 
+}
+
+
+@media (max-width:576px){
+    .hero{
+        flex-direction: column;
+    }
+    header{
+        clip-path: polygon(0 0,100% 0,100% 100%,70% 96%,0 100%);
+    }
+    .hero .right{
+        position: absolute;
+        background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+    }
+    .hero .left{
+        margin-top: 4rem;
+        margin-right: -10rem;
+        padding-bottom: 7rem;
+    }
+    .hero .left img{
+        width: 205px;
+    }
+    .hero .right h1 {
+        font-size: 2.4rem;
+    }
+    .hero .right h6 {
+        font-size: 1.3rem;
+    }
+    .hamberger {
+        position: absolute;
+        top: 16px;
+        right: 18px;
+    }
+    .about-inner-wrap{
+        flex-direction: column;
+    }
+    .about .right{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .about .right .social{
+        justify-content: center;
+    }
+    section{
+        padding: 3rem 0;
+    }
+    section.services .card-wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+    section.freelancer h1{
+        line-height: 1.2;
+    }
+    section.freelancer{
+        clip-path: polygon(0 0,100% 0,100% 100%,67% 88%,0 100%);
+    }
+    section.freelancer{
+        padding-bottom: 8rem;
+    }
+    section.work .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    section.contact .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    section.contact .input-wrap{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
