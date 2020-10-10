@@ -467,8 +467,8 @@ footer .copyright{
     }
     .hamberger {
         position: absolute;
-        top: 16px;
-        right: 18px;
+        top: 27px;
+        right: 32px;
     }
     .about-inner-wrap{
         flex-direction: column;
