@@ -468,11 +468,6 @@ footer .copyright{
     .hero .right h6 {
         font-size: 1.3rem;
     }
-    .hamberger {
-        position: absolute;
-        top: 27px;
-        right: 32px;
-    }
     .about-inner-wrap{
         flex-direction: column;
     }
